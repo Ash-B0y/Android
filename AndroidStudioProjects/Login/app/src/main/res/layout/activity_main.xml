@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="15sp"
+    android:paddingLeft="25sp"
+    android:paddingRight="25sp"
+    android:gravity="center"
+    tools:context="com.example.ash.login.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:gravity="center"
+        android:textSize="40sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65sp"
+        android:hint="Enter username"
+        android:textSize="30sp"
+        android:id="@+id/username"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65sp"
+        android:hint="Enter password"
+        android:textSize="30sp"
+        android:id="@+id/pwd"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textSize="30sp"
+        android:id="@+id/login"/>
+</LinearLayout>

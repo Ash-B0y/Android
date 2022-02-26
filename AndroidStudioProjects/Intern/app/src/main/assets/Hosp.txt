@@ -1,0 +1,5 @@
+Apollo Hospitals,Perungalathur
+Kauvery Hospital,Mylapore
+Vijaya Hospital,Vadapalani
+Rajiv Gandhi,Park Town
+SIMS Hospital,Vadapalani

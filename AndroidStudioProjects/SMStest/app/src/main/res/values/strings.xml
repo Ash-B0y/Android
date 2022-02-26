@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SMS test</string>
+    <string name="button">SEND OTP</string>
+    <string name="button2">VERIFY OTP</string>
+</resources>
